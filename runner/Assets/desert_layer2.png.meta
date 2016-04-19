@@ -1,0 +1,95 @@
+fileFormatVersion: 2
+guid: 3b7da1c3694db6a499e350e65201396f
+timeCreated: 1460638751
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: desert_layer2_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: desert_layer2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 18
+        width: 640
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 283, y: 32.399994}
+        - {x: 247, y: 31.399994}
+        - {x: 231, y: 47.399994}
+        - {x: 221, y: 47.399994}
+        - {x: 207, y: 45.399994}
+        - {x: 185, y: 22.399994}
+        - {x: 163, y: 22.399994}
+        - {x: 155, y: 9.399994}
+        - {x: 127, y: 1.3999939}
+        - {x: 77, y: -3.600006}
+        - {x: 75, y: -7.600006}
+        - {x: 42, y: 2.399994}
+        - {x: 27, y: -3.600006}
+        - {x: 25, y: -7.600006}
+        - {x: -83, y: -5.600006}
+        - {x: -140, y: -5.600006}
+        - {x: -157, y: 16.399994}
+        - {x: -191, y: 26.399994}
+        - {x: -250, y: 25.399994}
+        - {x: -269, y: 32.399994}
+        - {x: -300, y: 26.399994}
+        - {x: -320, y: 20.399994}
+        - {x: -320, y: -96.600006}
+        - {x: 320, y: -96.600006}
+        - {x: 320, y: 20.399994}
+        - {x: 314, y: 25.399994}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

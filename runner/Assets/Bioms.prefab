@@ -1,0 +1,1618 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &101866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 418392}
+  - 114: {fileID: 11482130}
+  m_Layer: 0
+  m_Name: Bioms
+  m_TagString: Biom
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11482130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25a59fdaf59d4247a4e6b63b69f2ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bioms:
+  - name: Mountains
+    index: 0
+    prise: 0
+    isDefault: 1
+    isPremium: 0
+    isBuyed: 1
+    isLocked: 0
+    icon: {fileID: 21300000, guid: a0b6c1988d3a04b4bbc2d7a7b392ccc2, type: 3}
+    layers:
+    - name: -1
+      order: -1
+      transform: {x: 0, y: -65, z: 0}
+      isParalaxeble: 0
+      tiles:
+      - sprite: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 0
+      order: 0
+      transform: {x: 0, y: 6.9, z: 20}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300000, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300002, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300004, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 1
+      order: 1
+      transform: {x: 0, y: 1, z: 10}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300006, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300008, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300010, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 2
+      order: 2
+      transform: {x: 0, y: -10, z: 3}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226, type: 3}
+        spawnChance: 0.1
+        isUnique: 1
+      chunkCount: 7
+    - name: 3
+      order: 3
+      transform: {x: 0, y: -13.9, z: 0}
+      isParalaxeble: 0
+      tiles:
+      - sprite: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    enemies: []
+  - name: Savana
+    index: 1
+    prise: 500
+    isDefault: 0
+    isPremium: 0
+    isBuyed: 1
+    isLocked: 0
+    icon: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d, type: 3}
+    layers:
+    - name: -1
+      order: -1
+      transform: {x: 0, y: -65, z: 0}
+      isParalaxeble: 0
+      tiles:
+      - sprite: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 0
+      order: 0
+      transform: {x: 0, y: 6.9, z: 20}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 1
+      order: 1
+      transform: {x: 0, y: 1, z: 15}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    - name: 2
+      order: 2
+      transform: {x: 0, y: -10, z: 3}
+      isParalaxeble: 1
+      tiles:
+      - sprite: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      - sprite: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226, type: 3}
+        spawnChance: 0.2
+        isUnique: 1
+      chunkCount: 7
+    - name: 3
+      order: 3
+      transform: {x: 0, y: -13.9, z: 0}
+      isParalaxeble: 0
+      tiles:
+      - sprite: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51, type: 3}
+        spawnChance: 1
+        isUnique: 0
+      chunkCount: 7
+    enemies: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[1].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].tiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].index
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].isLocked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: a0b6c1988d3a04b4bbc2d7a7b392ccc2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].isDefault
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].prise
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].isDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[3].order
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].isDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].order
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].isDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].order
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].isDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].order
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].isBuyed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].isBuyed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].prise
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[8].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[7].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[6].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].name
+      value: Savana
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: fc161496bd2aba44cb863932deddae0d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[1].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c86d063d8f9fbc64c8b1bf598cd739a8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b7da1c3694db6a499e350e65201396f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.data[1].spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[5].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[4].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[3].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.data[1].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].tiles.Array.data[2].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].name
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].order
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cae02495b88d2d4fbf19382b7993691,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[0].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].name
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[1].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].order
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[2].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb12da182656694ab48bfff51686226,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].tiles.Array.data[1].isUnique
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[3].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].tiles.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: e2182b029f7c70445849a3fda8d10f51,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].tiles.Array.data[0].spawnChance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[2].layers.Array.data[4].chunkCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[0].transform.y
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[1].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[1].transform.y
+      value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[1].transform.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[2].transform.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[2].transform.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[2].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[3].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[3].transform.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[3].transform.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[0].layers.Array.data[4].transform.y
+      value: -13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[0].transform.y
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[3].isParalaxeble
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].transform.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].transform.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[3].transform.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[4].transform.y
+      value: -13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[3].transform.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[2].transform.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bioms.Array.data[1].layers.Array.data[1].transform.y
+      value: 6.9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 101866}
+  m_IsPrefabParent: 1
